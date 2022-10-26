@@ -1,0 +1,1 @@
+local a = true;local b = 1;local c = game:GetService('RunService');local d = task.spawn;local e = task.wait;local f = task;local g; while a do f.wait(b) c:Set3dRenderingEnabled(false) f = false f.wait(b) c:Set3dRenderingEnabled(true) end
